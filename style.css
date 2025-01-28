@@ -27,7 +27,7 @@ body::before {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: blur(3px);
+    filter: blur(0px);
     z-index: -1;
 }
 
@@ -138,12 +138,12 @@ main section {
 }
 
 .project-container {
-    background-color: #946846;
+    background-color: #47372b;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     margin: 1em;
     padding: 1em;
-    color: white;
+    color: rgb(223, 221, 221);
 }
 
 .project-content {
