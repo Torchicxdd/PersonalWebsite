@@ -17,7 +17,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/cyberpunkBG.jpeg');
+    background-image: url('../images/cyberpunkBG.jpeg');
     background-size: cover;
     z-index: -1;
 } 
@@ -75,7 +75,7 @@ body::before {
 }
 
 #desc {
-    padding: 1.5em 1em 0 1em;
+    padding: 0 1em;
     text-align: center;
 }
 
@@ -98,6 +98,12 @@ main {
     height: 100%;
     overflow: auto;
     padding: 1em 3em 1em 1em;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+    display: none;
 }
 
 .big-section-block {
@@ -154,6 +160,14 @@ main {
     width: 75px;
 }
 
+.skills-main-project-icon {
+    width: 125px;
+}
+
+.main-project-icon {
+    width: 150px;
+}
+
 #right {
     bottom: 0;
     right: 0;
@@ -164,4 +178,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 1em;
+}
+
+#skills {
+    background-color: #cdcbc3d6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 1em;
+}
+
+#skills-icons {
+    text-align: center;
 }

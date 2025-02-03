@@ -1,8 +1,9 @@
-.playfair-regular {
+.playfair-header {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    font-size: 40px;
 }
 
 .figtree-regular {
@@ -10,4 +11,13 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 18px;
+}
+
+.playfair-header2 {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
 }

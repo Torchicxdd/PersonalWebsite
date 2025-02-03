@@ -10,17 +10,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="fonts.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="playfair-regular">
+<body>
   <section id="left">
     <section id="profile">
       <section id="profileDesc">
         <div class="profilePictureContainer">
           <img src="images/profilePicture.jpg" alt="David Parker" id="profilePicture" loading="lazy">
         </div>
-        <h2 id="name">David Parker</h2>
+        <h1 id="name" class="playfair-header">David Parker</h2>
         <p id="desc" class="figtree-regular">Dawson College 3rd-year student, avid music listener,
             aspiring graphics programmer, curious learner, and passionate about
             solving creative problems
@@ -41,9 +41,9 @@
   </section>
   <main>
     <section id="projects" class="big-section-block">
-      <h1>Projects</h1>
+      <h1 class="playfair-header">Projects</h1>
       <div class="project-container">
-        <h2>NutriMate</h2>
+        <h2 class="playfair-header2">NutriMate</h2>
         <div class="project-content">
           <div class="project-img-container">
             <img src="images/NutriMate.png" alt="NutriMate login page" loading="lazy">
@@ -51,14 +51,14 @@
           <div class="project-desc">
             <p class="figtree-regular">NutriMate is an app that stores all your favourite recipes posted by its extensive community. Create and manage your own recipes at will!</p>
             <div class="project-technologies">
-                <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="project-icon" loading="lazy">
-                <img src="images/oracle_logo.svg" alt="Oracle Logo" class="project-icon" loading="lazy">
+                <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="main-project-icon" loading="lazy">
+                <img src="images/oracle_logo.svg" alt="Oracle Logo" class="main-project-icon" loading="lazy">
             </div>
           </div>
         </div>
       </div>
       <div class="project-container">
-        <h2>PaintDrops Simulation</h2>
+        <h2 class="playfair-header2">PaintDrops Simulation</h2>
         <div class="project-content">
           <div class="project-img-container">
             <img src="images/paintdrops.png" alt="Paintdrops application">
@@ -66,14 +66,14 @@
           <div class="project-desc">
             <p class="figtree-regular">Tap into your creative side and create some beautiful paint drop art using this paint drops simulation! Add paint drops to the screen or use custom patterns built into the app, the choice is yours!</p>
             <div class="project-technologies">
-                <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="project-icon" loading="lazy">
-                <img src="images/monogame_logo.png" alt="Monogame Logo" class="project-icon">
+                <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="main-project-icon" loading="lazy">
+                <img src="images/monogame_logo.png" alt="Monogame Logo" class="main-project-icon">
             </div>
           </div>
         </div>
       </div>
       <div class="project-container">
-        <h2>Audio Visualizer (On-going)</h2>
+        <h2 class="playfair-header2">Audio Visualizer (On-going)</h2>
         <div class="project-content">
           <div class="project-img-container">
             <img src="images/audiovisualizer.png" alt="Audio Visualizer render">
@@ -81,8 +81,8 @@
           <div class="project-desc">
             <p class="figtree-regular">The audio visualizer is an app that visualizes audio onto a render. This is a passion project built in C++!</p>
             <div class="project-technologies">
-              <img src="images/cpp_logo.svg" alt="C++ Logo" class="project-icon">
-              <img src="images/directx_logo.svg" alt="DirectX Logo" class="project-icon">
+              <img src="images/cpp_logo.svg" alt="C++ Logo" class="main-project-icon">
+              <img src="images/directx_logo.svg" alt="DirectX Logo" class="main-project-icon">
             </div>
           </div>
         </div>
@@ -90,34 +90,48 @@
     </section>
   </main>
   <section id="right">
-    <section id="skills" class="big-section-block">
-        <h1>Skills</h1>
+    <section id="skills">
+        <h1 class="playfair-header">Skills</h1>
         <div id="skills-icons">
-          <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="project-icon" loading="lazy">
-          <img src="images/java_logo.svg" alt="Java Logo" class="project-icon" loading="lazy">
-          <img src="images/cpp_logo.svg" alt="C++ Logo" class="project-icon" loading="lazy">
-          <img src="images/python_logo.svg" alt="Python Logo" class="project-icon" loading="lazy">
-          <img src="images/js_logo.svg" alt="JavaScript Logo" class="project-icon" loading="lazy">
-          <img src="images/html_logo.svg" alt="HTML Logo" class="project-icon" loading="lazy">
-          <img src="images/css_logo.svg" alt="CSS Logo" class="project-icon" loading="lazy">
-          <img src="images/kotlin_logo.svg" alt="Kotlin Logo" class="project-icon" loading="lazy"> 
-          <img src="images/directx_logo.svg" alt="DirectX Logo" class="project-icon" loading="lazy">
-          <img src="images/oracle_logo.svg" alt="Oracle Logo" class="project-icon" loading="lazy">
-          <img src="images/sqlite_logo.svg" alt="SQLite Logo" class="project-icon" loading="lazy">
-          <img src="images/vs_logo.svg" alt="Visual Studio Logo" class="project-icon" loading="lazy">
-          <img src="images/vscode_logo.svg" alt="VSCode Logo" class="project-icon" loading="lazy">
-          <img src="images/git_logo.svg" alt="Git Logo" class="project-icon" loading="lazy">
-          <img src="images/github_logo.svg" alt="GitHub Logo" class="project-icon" loading="lazy">
-          <img src="images/gitlab_logo.svg" alt="GitLab Logo" class="project-icon" loading="lazy">
-          <img src="images/monogame_logo.png" alt="Monogame Logo" class="project-icon" loading="lazy">
-          <img src="images/unity_logo.svg" alt="Unity Logo" class="project-icon" loading="lazy">
-          <img src="images/godot_logo.png" alt="Godot Logo" class="project-icon" loading="lazy">
-          <img src="images/docker_logo.svg" alt="Docker Logo" class="project-icon" loading="lazy">
-          <img src="images/android-studio_logo.svg" alt="Android Studio Logo" class="project-icon" loading="lazy">
-          <img src="images/bash_logo.svg" alt="Bash Logo" class="project-icon" loading="lazy">
-          <img src="images/linux_logo.svg" alt="Linux Logo" class="project-icon" loading="lazy">
-          <img src="images/aws_logo.svg" alt="AWS Logo" class="project-icon" loading="lazy">
-          <img src="images/digitalocean_logo.svg" alt="Digital Ocean Logo" class="project-icon" loading="lazy">
+          <div id="main-skills">
+            <img src="images/csharp_logo2.svg" alt="CSharp Logo" class="skills-main-project-icon" loading="lazy">
+            <img src="images/java_logo.svg" alt="Java Logo" class="skills-main-project-icon" loading="lazy">
+            <img src="images/cpp_logo.svg" alt="C++ Logo" class="skills-main-project-icon" loading="lazy">
+          </div>
+          <div id="secondary-skills">
+            <img src="images/python_logo.svg" alt="Python Logo" class="project-icon" loading="lazy">
+            <img src="images/js_logo.svg" alt="JavaScript Logo" class="project-icon" loading="lazy">
+            <img src="images/html_logo.svg" alt="HTML Logo" class="project-icon" loading="lazy">
+            <img src="images/css_logo.svg" alt="CSS Logo" class="project-icon" loading="lazy">
+            <img src="images/kotlin_logo.svg" alt="Kotlin Logo" class="project-icon" loading="lazy">
+          </div>
+          <div id="tools-skills">
+            <img src="images/vs_logo.svg" alt="Visual Studio Logo" class="project-icon" loading="lazy">
+            <img src="images/vscode_logo.svg" alt="VSCode Logo" class="project-icon" loading="lazy">
+            <img src="images/android-studio_logo.svg" alt="Android Studio Logo" class="project-icon" loading="lazy">
+            <img src="images/docker_logo.svg" alt="Docker Logo" class="project-icon" loading="lazy">
+            <img src="images/git_logo.svg" alt="Git Logo" class="project-icon" loading="lazy">
+            <img src="images/github_logo.svg" alt="GitHub Logo" class="project-icon" loading="lazy">
+            <img src="images/gitlab_logo.svg" alt="GitLab Logo" class="project-icon" loading="lazy">
+          </div>
+          <div id="db-skills">
+            <img src="images/oracle_logo.svg" alt="Oracle Logo" class="project-icon" loading="lazy">
+            <img src="images/sqlite_logo.svg" alt="SQLite Logo" class="project-icon" loading="lazy">
+          </div>
+          <div id="deployment-skills">
+            <img src="images/aws_logo.svg" alt="AWS Logo" class="project-icon" loading="lazy">
+            <img src="images/digitalocean_logo.svg" alt="Digital Ocean Logo" class="project-icon" loading="lazy">
+          </div>
+          <div id="graphics-skills">
+            <img src="images/monogame_logo.png" alt="Monogame Logo" class="project-icon" loading="lazy">
+            <img src="images/unity_logo.svg" alt="Unity Logo" class="project-icon" loading="lazy">
+            <img src="images/godot_logo.png" alt="Godot Logo" class="project-icon" loading="lazy">
+            <img src="images/directx_logo.svg" alt="DirectX Logo" class="project-icon" loading="lazy">
+          </div>
+          <div id="others">
+            <img src="images/bash_logo.svg" alt="Bash Logo" class="project-icon" loading="lazy">
+            <img src="images/linux_logo.svg" alt="Linux Logo" class="project-icon" loading="lazy">
+          </div>
         </div>
       </section>
   </section>
