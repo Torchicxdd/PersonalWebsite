@@ -19,11 +19,7 @@
   "hero": {
     "role": "Software Developer",
     "bio": "Fullstack developer specialising in native Android apps and game development. I love building products that feel great to use — focused on consumer experience and enjoyment.",
-    "location": "Montreal, Canada",
-    "photo": {
-      "src": "/images/profilePicture.jpg",
-      "alt": "Portrait of David Parker"
-    }
+    "location": "Montreal, Canada"
   },
   "about": {
     "heading": "About Me",

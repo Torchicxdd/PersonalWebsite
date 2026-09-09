@@ -138,19 +138,6 @@ button {
   text-align: center;
 }
 
-.hero-photo-wrap {
-  width: 140px;
-  margin-bottom: 1.75rem;
-}
-
-.hero-photo {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--border);
-}
-
 .hero-role {
   font-family: var(--font-display);
   font-size: clamp(0.85rem, 1.2vw, 1rem);
