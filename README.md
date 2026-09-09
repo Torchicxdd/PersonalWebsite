@@ -12,7 +12,7 @@ Personal website built with [Eleventy](https://www.11ty.dev/) (plain HTML/CSS, n
 
 All site content lives in one file: `src/_data/site.json`.
 Bio, the "Languages & tools" filter, work experience, and projects are all
-driven by this data. Placeholders are marked `TODO:`.
+driven by this data.
 
 - **Filtering:** the floating tool panel matches chips against a job's
   `tools` and a project's `tags`. Keep those labels identical to the chip
