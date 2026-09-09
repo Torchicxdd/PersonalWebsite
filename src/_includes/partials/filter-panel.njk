@@ -1,0 +1,18 @@
+{% from "partials/tool-chip.njk" import toolChip %}
+<aside class="filter-panel" id="filterPanel" aria-label="{{ site.toolbox.heading }}">
+  <div class="filter-panel-head">
+    <h3 class="filter-panel-title">{{ site.toolbox.heading }}</h3>
+    <button type="button" class="filter-clear" id="filterClear" hidden>Clear ×</button>
+  </div>
+  {% if site.toolbox.note %}<p class="filter-note">{{ site.toolbox.note }}</p>{% endif %}
+  {% for g in site.toolbox.groups %}
+  <div class="filter-group">
+    <h4 class="filter-group-name">{{ g.name }}</h4>
+    <div class="filter-chips">
+      {% for i in g.icons %}
+      {{ toolChip(site.toolbox.groups, i.alt) }}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</aside>

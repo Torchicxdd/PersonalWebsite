@@ -1,0 +1,6 @@
+{% macro toolChip(groups, name) %}
+<button type="button" class="filter-chip" data-tool="{{ name }}">
+  {% for g in groups %}{% for i in g.icons %}{% if i.alt == name %}<img src="{{ i.src }}" alt="">{% endif %}{% endfor %}{% endfor %}
+  <span>{{ name }}</span>
+</button>
+{% endmacro %}

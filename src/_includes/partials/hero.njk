@@ -1,0 +1,15 @@
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-photo-wrap">
+      <img class="hero-photo" src="{{ site.hero.photo.src }}" alt="{{ site.hero.photo.alt }}">
+    </div>
+    <p class="hero-role">{{ site.hero.role }}</p>
+    <h1 class="hero-name">{{ site.name }}</h1>
+    <p class="hero-bio">{{ site.hero.bio }}</p>
+    <p class="hero-location">{% if site.hero.location %}{{ site.hero.location }}{% endif %}</p>
+    <div class="socials">
+      {% for s in site.socials %}<a class="social-link" href="{{ s.url }}" {% if not s.url.startsWith('mailto:') %}target="_blank" rel="noopener"{% endif %} aria-label="{{ s.label }}"><img src="{{ s.icon }}" alt="{{ s.label }}"></a>{% endfor %}
+    </div>
+    <a class="scroll-cue" href="#about" aria-label="Scroll to about"><span>↓</span></a>
+  </div>
+</section>

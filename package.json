@@ -1,0 +1,13 @@
+{
+  "name": "davidparker-io",
+  "version": "1.0.0",
+  "description": "davidparker.io — personal portfolio built with Eleventy.",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

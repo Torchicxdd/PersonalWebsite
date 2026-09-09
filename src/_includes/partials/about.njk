@@ -1,0 +1,10 @@
+<section class="section about" id="about">
+  <div class="container">
+    <h2 class="section-title">{{ site.about.heading }}</h2>
+    <div class="about-prose">
+      {% for p in site.about.paragraphs %}
+      <p>{{ p | safe }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>

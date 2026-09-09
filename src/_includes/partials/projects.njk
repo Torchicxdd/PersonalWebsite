@@ -1,0 +1,23 @@
+{% from "partials/tool-chip.njk" import toolChip %}
+<section class="section projects" id="projects">
+  <div class="container">
+    <h2 class="section-title">{{ site.projectsHeading }}</h2>
+    <div class="project-list" id="projectList">
+      {% for p in site.projects %}
+      <article class="project-row" data-tools="{{ p.tags | join(' ') }}">
+        <div class="project-head">
+          <h3 class="project-title">{{ p.title }}</h3>
+          <div class="project-links">
+            {% if p.links.code %}<a class="project-link" href="{{ p.links.code }}" target="_blank" rel="noopener" aria-label="GitHub repository"><img src="/images/github_logo.svg" alt="GitHub"></a>{% endif %}
+            {% if p.links.play %}<a class="project-link" href="{{ p.links.play }}" target="_blank" rel="noopener" aria-label="Play online"><img src="/images/external-link_logo.svg" alt="Play online"></a>{% endif %}
+          </div>
+        </div>
+        <p class="project-desc">{{ p.description }}</p>
+        <div class="project-tags" aria-label="Technologies used">
+          {% for t in p.tags %}{{ toolChip(site.toolbox.groups, t) }}{% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

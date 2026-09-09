@@ -1,0 +1,197 @@
+{
+  "name": "David Parker",
+  "brand": "David Parker",
+  "domain": "davidparker.io",
+  "metaDescription": "David Parker — TODO: short site description for search engines.",
+  "year": "2026",
+  "nav": [
+    { "label": "About Me", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/david-parker-243215332/", "icon": "/images/linkedin_logo.svg" },
+    { "label": "GitHub", "url": "https://github.com/Torchicxdd", "icon": "/images/github_logo.svg" },
+    { "label": "GitLab", "url": "https://gitlab.com/David_Parker", "icon": "/images/gitlab_logo.svg" },
+    { "label": "Email", "url": "mailto:david.parker.biz@outlook.com", "icon": "/images/mail_logo.svg" }
+  ],
+  "hero": {
+    "role": "Software Developer",
+    "bio": "Fullstack developer specialising in native Android apps and game development. I love building products that feel great to use — focused on consumer experience and enjoyment.",
+    "location": "Montreal, Canada",
+    "photo": {
+      "src": "/images/profilePicture.jpg",
+      "alt": "Portrait of David Parker"
+    }
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraphs": [
+      "I enrolled in the computer science program at <a href=\"https://www.dawsoncollege.qc.ca/\" target=\"_blank\" rel=\"noopener\">Dawson College</a>, driven by a desire to learn how to code so I could bring my own ideas to life — like video games.",
+      "During my time there, I worked on a wide range of projects in a work-like environment, always collaborating in teams alongside my fellow classmates.",
+      "That path led to an internship at <a href=\"https://www.summit-tech.ca/\" target=\"_blank\" rel=\"noopener\">Summit Tech</a>, which grew into a full-time role where I started working in native mobile development.",
+      "Looking ahead, I want to build useful and creative applications that make a real difference."
+    ]
+  },
+  "toolbox": {
+    "heading": "Languages & tools",
+    "note": "Filter the experience and projects below by the tools used.",
+    "groups": [
+      {
+        "name": "Languages",
+        "icons": [
+          { "src": "/images/kotlin_logo.svg", "alt": "Kotlin" },
+          { "src": "/images/csharp_logo2.svg", "alt": "C#" },
+          { "src": "/images/java_logo.svg", "alt": "Java" },
+          { "src": "/images/cpp_logo.svg", "alt": "C++" },
+          { "src": "/images/godot_logo.png", "alt": "GDScript" },
+          { "src": "/images/python_logo.svg", "alt": "Python" },
+          { "src": "/images/js_logo.svg", "alt": "JavaScript" },
+          { "src": "/images/html_logo.svg", "alt": "HTML" },
+          { "src": "/images/css_logo.svg", "alt": "CSS" }
+        ]
+      },
+      {
+        "name": "Web",
+        "icons": [
+          { "src": "/images/node_logo.svg", "alt": "Node.js" },
+          { "src": "/images/express_logo.svg", "alt": "Express" },
+          { "src": "/images/react_logo.svg", "alt": "React" }
+        ]
+      },
+      {
+        "name": "Databases",
+        "icons": [
+          { "src": "/images/oracle_logo.svg", "alt": "Oracle" },
+          { "src": "/images/sqlite_logo.svg", "alt": "SQLite" },
+          { "src": "/images/mongodb_logo.svg", "alt": "MongoDB" }
+        ]
+      },
+      {
+        "name": "Tools",
+        "icons": [
+          { "src": "/images/android-studio_logo.svg", "alt": "Android Studio" },
+          { "src": "/images/docker_logo.svg", "alt": "Docker" }
+        ]
+      },
+      {
+        "name": "Testing",
+        "icons": [
+          { "src": "/images/mstest_logo.svg", "alt": "MSTest" },
+          { "src": "/images/java_logo.svg", "alt": "Mockito" }
+        ]
+      },
+      {
+        "name": "Deployment & systems",
+        "icons": [
+          { "src": "/images/aws_logo.svg", "alt": "AWS" },
+          { "src": "/images/digitalocean_logo.svg", "alt": "DigitalOcean" },
+          { "src": "/images/linux_logo.svg", "alt": "Linux" }
+        ]
+      },
+      {
+        "name": "Graphics & game engines",
+        "icons": [
+          { "src": "/images/monogame_logo.svg", "alt": "MonoGame" },
+          { "src": "/images/godot_logo.png", "alt": "Godot" }
+        ]
+      }
+    ]
+  },
+  "experienceHeading": "Experience",
+  "experience": [
+    {
+      "role": "Software Developer",
+      "company": "Summit Tech",
+      "companyUrl": "https://www.summit-tech.ca/",
+      "period": "April 2025 \u2013 September 2026",
+      "current": false,
+      "tools": ["Kotlin", "C++", "Android Studio"],
+      "points": [
+        "Worked on <a href=\"https://play.google.com/store/apps/details?id=com.summit.ims.app.odience&amp;hl=en_CA\" target=\"_blank\" rel=\"noopener\">Odience</a>, a MEC-powered RCS messaging, calling, video calling, and 360\u00b0 live-streaming app, end to end.",
+        "Implemented the app's front-end design using native Android XML.",
+        "Handled SDK-side end-to-end API data integration using MVP architecture.",
+        "Worked on the audio pipeline for 360\u00b0 streams, integrating ambisonic audio in the NDK",
+        "Worked on the rendering pipeline \u2014 OpenGL for 360\u00b0 livestreams and ExoPlayer for flat streams.",
+        "Worked with native Android systems including Bluetooth, gyroscope, and location access."
+      ],
+      "dayToDay": [
+        "Attended daily scrums and worked on high-priority tasks.",
+        "Worked with the iOS and web platform teams to determine what needs to be implemented on our side to stay in sync."
+      ]
+    }
+  ],
+  "projectsHeading": "Projects",
+  "projects": [
+    {
+      "title": "BookWorm",
+      "description": "An Android reading app that lets you discover, download, and read public-domain books from Project Gutenberg. Features include offline reading, a personal bookshelf, chapter navigation, in-book search, and an adaptive layout for phones and tablets.",
+      "tags": ["Kotlin", "Android Studio", "SQLite", "Mockito"],
+      "links": { "code": "https://github.com/Torchicxdd/BookReadingApp" }
+    },
+    {
+      "title": "Red Rising Calculator",
+      "description": "A score calculator for the Red Rising board game by Stonemaier Games. Track scores across multiple players with support for all scoring categories including character cards, fleet track, helium, influence rankings, and more. Supports light and dark themes.",
+      "tags": ["Kotlin", "Android Studio"],
+      "links": { "code": "https://github.com/Torchicxdd/BoardGamesCalculator" }
+    },
+    {
+      "title": "Entropy",
+      "description": "A 2D precision platformer about a character named Tropi navigating a powered-down world. Swing from sockets, manage your battery, and race against time. Made for the Jamlytics Game Jam.",
+      "tags": ["GDScript", "Godot"],
+      "links": {
+        "code": "https://github.com/Torchicxdd/jamlytics-jam-1",
+        "play": "https://torchicxdd.itch.io/entropy"
+      }
+    },
+    {
+      "title": "Candy Crime: A National Security Threat on 32nd Street",
+      "description": "A demo game where you interrogate suspects and gather evidence to solve a national security mystery. The game is unfinished, but the UI is the highlight of the project.",
+      "tags": ["GDScript", "Godot"],
+      "links": {
+        "code": "https://github.com/Torchicxdd/DetectiveGame",
+        "play": "https://torchicxdd.itch.io/candy-crime-a-national-security-threat-on-32nd-street"
+      }
+    },
+    {
+      "title": "Tropi Quest",
+      "description": "A 2D bullet hell shoot-em-up built with Godot for Jamlytics Jam #2, where it placed 1st in accessibility scores. Tropi has escaped the dungeons of Entropy and must use his abilities of Fury, Poise, and Flow to escape the Inferno Syndicate's rain of bullets.",
+      "tags": ["GDScript", "Godot"],
+      "links": {
+        "code": "https://github.com/Torchicxdd/Jamlytics2",
+        "play": "https://torchicxdd.itch.io/tropi-quest"
+      }
+    },
+    {
+      "title": "NutriMate",
+      "description": "A desktop recipe-sharing social application built with C# and Avalonia. Users can create accounts, publish recipes, search the community catalog across eight filter types, and get a personalized \"For You Page\" based on the tags of recipes they've favourited.",
+      "tags": ["C#", "Oracle", "MSTest"],
+      "links": { "code": "https://github.com/Torchicxdd/NutriMate" }
+    },
+    {
+      "title": "PaintDrops Simulation",
+      "description": "A MonoGame paint drop simulation where newly placed drops scatter the ones around them. Includes automated phyllotaxis and archimedean spiral patterns, plus a flashlight mode to reveal the canvas dot by dot.",
+      "tags": ["C#", "MonoGame", "MSTest"],
+      "links": { "code": "https://github.com/Torchicxdd/PaintDropsSimulation" }
+    },
+    {
+      "title": "Rotten Potatoes",
+      "description": "An easy-to-use application that displays data about movies, including ratings and revenue. Pick a country on the map to see how many movies were made there, the number of votes, and the average rating — or explore the data through filterable charts.",
+      "tags": ["MongoDB", "Express", "React", "Node.js"],
+      "links": { "code": "https://github.com/Torchicxdd/RottenPotatoes" }
+    },
+    {
+      "title": "ShoeVault",
+      "description": "A shoe catalog application that stores all your favourite shoes. Search and view reviews and comments on your favourite shoes with links on where to buy them. Save the shoes you love and connect with others by viewing the shoes they have saved and favourited!",
+      "tags": ["MongoDB", "Express", "React", "Node.js"],
+      "links": { "code": "https://github.com/Torchicxdd/ShoeVault" }
+    },
+    {
+      "title": "Portfolio",
+      "description": "My personal website and portfolio, current website",
+      "tags": ["HTML", "CSS", "JavaScript", "Node.js"],
+      "links": { "code": "https://github.com/Torchicxdd/PersonalWebsite" }
+    }
+  ]
+}
