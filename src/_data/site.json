@@ -109,7 +109,7 @@
       "points": [
         "Worked on <a href=\"https://www.odience.com\" target=\"_blank\" rel=\"noopener\">Odience</a>, a MEC-powered RCS messaging, calling, video calling, and 360\u00b0 live-streaming app, end to end. Worked on the new <a href=\"https://play.google.com/store/apps/details?id=com.summit.ims.app.odience&hl=en_CA\" target=\"_blank\" rel=\"noopener\">Android Native client</a> specifically.",
         "Implemented the app's front-end design using native Android XML.",
-        "Handled SDK-side end-to-end API data integration using MVP architecture.",
+        "Handled SDK-side end-to-end API data integration using MVP and MVVM architecture.",
         "Worked on the audio pipeline for 360\u00b0 streams, integrating ambisonic audio in the NDK",
         "Worked on the rendering pipeline \u2014 OpenGL for 360\u00b0 livestreams and ExoPlayer for flat streams.",
         "Worked with native Android systems including Bluetooth, gyroscope, and location access."
