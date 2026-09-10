@@ -68,7 +68,9 @@
         "name": "Tools",
         "icons": [
           { "src": "/images/android-studio_logo.svg", "alt": "Android Studio" },
-          { "src": "/images/docker_logo.svg", "alt": "Docker" }
+          { "src": "/images/docker_logo.svg", "alt": "Docker" },
+          { "src": "/images/jira_logo.svg", "alt": "Jira" },
+          { "src": "/images/gerrit_logo.svg", "alt": "Gerrit" }
         ]
       },
       {
@@ -103,9 +105,9 @@
       "companyUrl": "https://www.summit-tech.ca/",
       "period": "April 2025 \u2013 September 2026",
       "current": false,
-      "tools": ["Kotlin", "C++", "Android Studio"],
+      "tools": ["Kotlin", "C++", "Android Studio", "Jira", "Gerrit"],
       "points": [
-        "Worked on <a href=\"https://play.google.com/store/apps/details?id=com.summit.ims.app.odience&amp;hl=en_CA\" target=\"_blank\" rel=\"noopener\">Odience</a>, a MEC-powered RCS messaging, calling, video calling, and 360\u00b0 live-streaming app, end to end.",
+        "Worked on <a href=\"https://www.odience.com\" target=\"_blank\" rel=\"noopener\">Odience</a>, a MEC-powered RCS messaging, calling, video calling, and 360\u00b0 live-streaming app, end to end. Worked on the new <a href=\"https://play.google.com/store/apps/details?id=com.summit.ims.app.odience&hl=en_CA\" target=\"_blank\" rel=\"noopener\">Android Native client</a> specifically.",
         "Implemented the app's front-end design using native Android XML.",
         "Handled SDK-side end-to-end API data integration using MVP architecture.",
         "Worked on the audio pipeline for 360\u00b0 streams, integrating ambisonic audio in the NDK",
@@ -114,7 +116,8 @@
       ],
       "dayToDay": [
         "Attended daily scrums and worked on high-priority tasks.",
-        "Worked with the iOS and web platform teams to determine what needs to be implemented on our side to stay in sync."
+        "Worked with the iOS and web platform teams to determine what needs to be implemented on our side to stay in sync.",
+		"Coded the Android Native client of Odience with a small team of Android developers, working on specific tasks ticketed through Jira and code reviewed on Gerrit."
       ]
     }
   ],
