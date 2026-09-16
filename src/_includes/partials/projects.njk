@@ -5,6 +5,7 @@
     <div class="project-list" id="projectList">
       {% for p in site.projects %}
       <article class="project-row" data-tools="{{ p.tags | join(' ') }}">
+        <div class="project-row-inner">
         <div class="project-head">
           <h3 class="project-title">{{ p.title }}</h3>
           <div class="project-links">
@@ -15,6 +16,7 @@
         <p class="project-desc">{{ p.description }}</p>
         <div class="project-tags" aria-label="Technologies used">
           {% for t in p.tags %}{{ toolChip(site.toolbox.groups, t) }}{% endfor %}
+        </div>
         </div>
       </article>
       {% endfor %}

@@ -20,6 +20,7 @@
         const tools = (item.dataset.tools || "").split(" ").filter(Boolean);
         const match = !hasFilter || tools.length === 0 || tools.some((t) => active.has(t));
         item.classList.toggle("is-dimmed", !match);
+        item.inert = !match;
       });
     });
   }

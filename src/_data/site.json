@@ -105,7 +105,7 @@
       "companyUrl": "https://www.summit-tech.ca/",
       "period": "April 2025 \u2013 September 2026",
       "current": false,
-      "tools": ["Kotlin", "C++", "Android Studio", "Jira", "Gerrit"],
+      "tools": ["Kotlin", "C++", "Java", "Android Studio", "Jira", "Gerrit"],
       "points": [
         "Worked on <a href=\"https://www.odience.com\" target=\"_blank\" rel=\"noopener\">Odience</a>, a MEC-powered RCS messaging, calling, video calling, and 360\u00b0 live-streaming app, end to end. Worked on the new <a href=\"https://play.google.com/store/apps/details?id=com.summit.ims.app.odience&hl=en_CA\" target=\"_blank\" rel=\"noopener\">Android Native client</a> specifically.",
         "Implemented the app's front-end design using native Android XML.",
@@ -126,7 +126,7 @@
     {
       "title": "BookWorm",
       "description": "An Android reading app that lets you discover, download, and read public-domain books from Project Gutenberg. Features include offline reading, a personal bookshelf, chapter navigation, in-book search, and an adaptive layout for phones and tablets.",
-      "tags": ["Kotlin", "Android Studio", "SQLite", "Mockito"],
+      "tags": ["Kotlin", "Android Studio", "SQLite", "Mockito", "Java"],
       "links": { "code": "https://github.com/Torchicxdd/BookReadingApp" }
     },
     {
@@ -177,13 +177,13 @@
     {
       "title": "Rotten Potatoes",
       "description": "An easy-to-use application that displays data about movies, including ratings and revenue. Pick a country on the map to see how many movies were made there, the number of votes, and the average rating — or explore the data through filterable charts.",
-      "tags": ["MongoDB", "Express", "React", "Node.js"],
+      "tags": ["JavaScript", "HTML", "CSS", "MongoDB", "Express", "React", "Node.js"],
       "links": { "code": "https://github.com/Torchicxdd/RottenPotatoes" }
     },
     {
       "title": "ShoeVault",
       "description": "A shoe catalog application that stores all your favourite shoes. Search and view reviews and comments on your favourite shoes with links on where to buy them. Save the shoes you love and connect with others by viewing the shoes they have saved and favourited!",
-      "tags": ["MongoDB", "Express", "React", "Node.js"],
+      "tags": ["JavaScript", "HTML", "CSS", "MongoDB", "Express", "React", "Node.js"],
       "links": { "code": "https://github.com/Torchicxdd/ShoeVault" }
     },
     {
